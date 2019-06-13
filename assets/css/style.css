@@ -47,3 +47,14 @@ body
     border-width: 3px;
     margin-top: 06px; 
 }
+
+#Experience span
+{
+    padding: 10px 20px 10px 20px;
+} 
+
+#Experience hr
+{
+    border-width: 3px;
+    margin-top: 06px; 
+}
