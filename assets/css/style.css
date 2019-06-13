@@ -58,3 +58,13 @@ body
     border-width: 3px;
     margin-top: 06px; 
 }
+
+#Experience .card
+{
+    border-top: 03px solid #d63031;
+}
+
+#Contact hr
+{
+    padding: 10px 20px 10px 20px;
+}
