@@ -18,6 +18,11 @@ body
 
 /* About */
 
+#profile
+{
+
+}
+
 #About
 {
     margin-top: -200px;
@@ -98,3 +103,8 @@ body
     border-bottom: 2px solid #eeeeee;
   }
   
+  @media screen and (max-width:639px)
+  {
+    #profile{
+        width: 100%
+  }
