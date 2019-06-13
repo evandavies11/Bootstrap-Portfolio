@@ -16,6 +16,8 @@ body
     min-height: 500px;
 }
 
+/* About */
+
 #About
 {
     margin-top: -200px;
@@ -37,6 +39,8 @@ body
     margin-top: 06px;
 }
 
+/* Skills */
+
 #Skills span
 {
     padding: 10px 20px 10px 20px; 
@@ -47,6 +51,8 @@ body
     border-width: 3px;
     margin-top: 06px; 
 }
+
+/* Experience */
 
 #Experience span
 {
@@ -64,7 +70,31 @@ body
     border-top: 03px solid #d63031;
 }
 
+/* Contact */
+
 #Contact hr
 {
     padding: 10px 20px 10px 20px;
 }
+
+/* Footer */
+
+.footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+  }
+
+  h3, h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eeeeee;
+  }
+  
