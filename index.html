@@ -1,56 +1,201 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Evan Davies</title>
-    <link rel="stylesheet" type="type/css" href="assets/css/style.css" />
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <title>Evan Davies</title>
 </head>
 
 <body>
+    <!--Navbar-->
+    <div id="Header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                    <h3>Portfolio</h3>
+                </a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml auto">
+                        <li class="nav-item "><a href="#About" class="nav-link">About Me</a></li>
+                        <li class="nav-item "><a href="#Skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item "><a href="#Experience" class="nav-link">Experience</a></li>
+                        <li class="nav-item "><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <!--Showcase-->
+    <div id="bg-img"></div>
 
-    <div class="container">
-        <div class="row">
+    <!--About Me-->
 
-            <div class="col-md-8">
-                <h1>About Me</h1>
-                <div class="row">
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="AboutData">
+                        <div class="card bg-white">
+                            <div class="card-title my-5">
+                                <div class="media">
+                                    <img src="assets/images/profilephoto.jpg" width="250" height="250"
+                                        class="img-fluid rounded-top mx-5 d-none d-lg-block">
+                                    <div class="media-body">
+                                        <h3 class="display-4 ml-5">I'm Evan Davies</h3>
+                                        <p class="text-muted ml-5">Programmer & Blogger</p>
+                                        <div class="container">
+                                            <Table class="table table-responsive ml-4">
+                                                <tr>
+                                                    <td class="text-muted">Age</td>
+                                                    <td>:</td>
+                                                    <td>32 years old</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Email</td>
+                                                    <td>:</td>
+                                                    <td>evandavies11@gmail.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Website</td>
+                                                    <td>:</td>
+                                                    <td>https://github.com/evandavies11</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Phone</td>
+                                                    <td>:</td>
+                                                    <td>214-xxx-xxxx</td>
+                                                </tr>
 
-                    <div class="col-md-2">
-                        <img class="img img-thumbnail" src="assets/images/profilephoto.jpg">
+                                            </Table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div class="col-md-8">
-                            <p>
-                                Evan Davies is an artist, printmaker and now web developer living in the Kansas City
-                                area. Always, looking for
-                                adventure I set my goals high, with the intention of making great things that hopefully
-                                people find complex but
-                                also with my own sense of humor included.
+                            <div class="card-footer bg-danger">
+                                <a href="#"><i class="fa fa-facebook fa-2x mx-3"></i></i></a>
+                                <a href="#"><i class="fa fa-twitter fa-2x mx-3"></i></i></a>
+                                <a href="#"><i class="fa fa-youtube fa-2x mx-3"></i></i></a>
+                                <a href="#"><i class="fa fa-pinterest fa-2x mx-3"></i></i></a>
+                                <a href="#"><i class="fa fa-github fa-2x mx-3"></i></i></a>
 
-                                Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non,
-                                pretium odio. Nunc id eros
-                                iaculis, pulvinar quam eget, egestas mauris.
-
-                                Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet
-                                egestas nibh tortor et mi.
-                                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
-                            </p>
+                            </div>
                         </div>
-
                     </div>
 
                 </div>
-
             </div>
 
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <span class="bg-danger text-white">About Me</span>
+                        <hr class="bg-danger">
+                        <p class="lead text-justify">Evan Davies is an artist, printmaker and now web developer living
+                            in the Kansas City area.
+                            Always, looking for
+                            adventure I set my goals high, with the intention of making great things that hopefully
+                            people find complex but
+                            also with my own sense of humor included.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
 
+    <!--Skills-->
+
+    <div id="Skills" class="mt-5">
+        <div class="container">
+            <span class="bg-primary text-white">My Skills</span>
+            <hr class="bg-primary">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-white">
+
+                        <h3 class="ml-3 my-3">HTML5 Language</h3>
+                        <div class="progress mx-3">
+                            <div class="progress-bar bg-dark" style="width:95%">95%
+                            </div>
+                        </div>
+
+                        <h3 class="ml-3 my-3">CSS3 Language</h3>
+                        <div class="progress mx-3">
+                            <div class="progress-bar bg-dark" style="width:100%">100%
+                            </div>
+                        </div>
+
+                        <h3 class="ml-3 my-3">JavaScript</h3>
+                        <div class="progress mx-3">
+                            <div class="progress-bar bg-dark" style="width:99%">99%
+                            </div>
+                        </div>
+
+                        <h3 class="ml-3 my-3">C# Programming</h3>
+                        <div class="progress mx-3">
+                            <div class="progress-bar bg-dark" style="width:100%">100%
+                            </div>
+                        </div>
+
+                        <h3 class="ml-3 my-3">Java Programming</h3>
+                        <div class="progress mx-3">
+                            <div class="progress-bar bg-dark" style="width:85%">85%
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Experience-->
+
+    <div id="Experience">
+        <div class="container mt-5">
+            <div class="row">
+                <span class="bg-succes text-white"> Experience</span>
+                <hr class="bg-success">
+                <div class="col-lg-6">
+                    <div class="card bg-white">
+                        <img src="assets/images/Space.png" width="200" height="200" class="img-fluid">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
+</html>

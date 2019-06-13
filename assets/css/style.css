@@ -1,18 +1,49 @@
-body {
-    Font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+body 
+{
+    background: #CCC;
 }
 
-.max-viewport {
-    min-height: 100vh
+#Header .a:hover
+{
+    color: #FFF;
 }
 
-#banner,
-#contact,
-#social {
-    Background: linear-gradient(rgba(#ffffff),rgba(#ffffff));
-    Background: url("assets/images/concrete_seamless.png");
-    Background-attachment: fixed;
-    Background-position: center;
-    Background-repeat: no-repeat;
-    background-size: cover;
+#bg-img
+{
+    background: url("../images/concrete_seamless.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+#About
+{
+    margin-top: -200px;
+}
+
+#About .fa
+{
+    color: #FFF;
+}
+
+#About span
+{
+  padding: 10px 20px 10px 20px;  
+}
+
+#About hr
+{
+    border-width: 3px;
+    margin-top: 06px;
+}
+
+#Skills span
+{
+    padding: 10px 20px 10px 20px; 
+}
+
+#Skills hr
+{
+    border-width: 3px;
+    margin-top: 06px; 
 }
